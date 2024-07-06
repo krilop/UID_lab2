@@ -17,6 +17,7 @@ const PersonInfo = () => {
     const {id} = useParams();
     const selectedPerson=peopleData[id];
     const { name, years, img, geolocation, gallery, biography, linkOnVideo } = selectedPerson;
+    /*pull request*/
     const slides = [
         {url: process.env.PUBLIC_URL+ gallery.img1},
         {url: process.env.PUBLIC_URL+ gallery.img2},
