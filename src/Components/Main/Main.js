@@ -1,12 +1,12 @@
 import React from 'react';
 import './Main.css'; // импорт стилей из верхнего сегмента
-import temp_pict from '../Images/temp_pict.jpg'; // импорт изображения
+import temp_pict from '../../assets//temp_pict.jpg'; // импорт изображения
 import {Link} from 'react-router-dom'
-import people from '../Data/peopleData.json'
+import people from '../../Data/peopleData.json'
 import { useHistory } from 'react-router-dom';
-import Info from "./Info";
-import {useLanguage} from "./Language";
-import lang from "../Data/translate.json";
+import Info from "../Info/Info";
+import {useLanguage} from "../language/Language";
+import lang from "../../Data/translate.json";
 
 
 

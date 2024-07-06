@@ -1,8 +1,8 @@
 // src/components/PersonCard.js
 import React from 'react';
 import './ProgCard.css';
-import {useLanguage} from "./Language";
-import lang from "../Data/translate.json";
+import {useLanguage} from "../language/Language";
+import lang from "../../Data/translate.json";
 
 const PersonCard = ({ person }) => {
     const { id, name, linkGH, img } = person;

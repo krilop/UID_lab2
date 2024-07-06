@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext } from 'react';
-import data from '../Data/peopleData.json'; // Импортируем файл с данными
+import data from '../../Data/peopleData.json'; // Импортируем файл с данными
 
 const LanguageContext = createContext();
 

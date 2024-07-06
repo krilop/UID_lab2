@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import PersonCard from './PersonCard';
-import data from "../Data/peopleData.json";
-import lang from "../Data/translate.json";
-import {useLanguage} from "./Language";
+import PersonCard from '../PersonCard/PersonCard';
+import data from "../../Data/peopleData.json";
+import lang from "../../Data/translate.json";
+import {useLanguage} from "../language/Language";
 
 const SearchResults = ({ results }) => {
     const [searchQuery, setSearchQuery] = useState('');

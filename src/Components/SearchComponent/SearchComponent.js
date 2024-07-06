@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import SearchResults from './SearchResults';
+import SearchResults from '../SearchResult/SearchResults';
 
-import {useLanguage} from "./Language";
-import data from "../Data/peopleData.json"
-import lang from "../Data/translate.json"
+import {useLanguage} from "../language/Language";
+import data from "../../Data/peopleData.json"
+import lang from "../../Data/translate.json"
 //тут для английского
 
 const SearchComponent = () => {

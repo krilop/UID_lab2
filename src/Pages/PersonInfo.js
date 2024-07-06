@@ -1,14 +1,14 @@
 import React from "react";
 
-import VertTimeLine from "../Components/Hrono2";
+import VertTimeLine from "../Components/Hrono/Hrono2";
 
-import ImageSlider from "../Components/ImageSlider";
+import ImageSlider from "../Components/ImageSlider/ImageSlider";
 
 import {useParams} from "react-router-dom";
 import Data from "../Data/peopleData.json";
-import YoutubeEmbed from "../Components/YoutubeEmbed";
-import {useLanguage} from "../Components/Language";
-import Geolocation from "../Components/Geolocation";
+import YoutubeEmbed from "../Components/YouTudeEmbed/YoutubeEmbed";
+import {useLanguage} from "../Components/language/Language";
+import Geolocation from "../Components/Geolocation/Geolocation";
 import './PersonInfo.css';
 
 const PersonInfo = () => {

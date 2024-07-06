@@ -1,6 +1,6 @@
 {
-  "name": "try3",
-  "version": "0.1.0",
+  "name": "UID",
+  "version": "0.1.1",
   "homepage": "https://krilop.github.io/UID_lab2/#/",
   "private": true,
   "dependencies": {

@@ -2,8 +2,8 @@
 import React from 'react';
 import './PersonCard.css';
 import {Link} from "react-router-dom";
-import {useLanguage} from "./Language";
-import lang from "../Data/translate.json";
+import {useLanguage} from "../language/Language";
+import lang from "../../Data/translate.json";
 
 const PersonCard = ({ person }) => {
     const {id, name, years, img, link } = person;

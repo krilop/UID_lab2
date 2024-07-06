@@ -1,0 +1,40 @@
+.prog-card {
+    width: 12rem;
+    height: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #670101;
+    padding: 7px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 6px;
+    transition: background 2s; /* Переход фона на карточке */
+}
+
+.progimages {
+    width: 80%;
+    height: 70%;
+}
+
+.prog-card h2 {
+    font-weight: bold;
+    color: #670101;
+    font-size: 1rem;
+}
+
+.prog-card a {
+    font-weight: bold;
+    color: #670101;
+    font-size: 1rem;
+    transition: transform .5s, font-size .5s, color 0.5s; /* Переход для всех свойств */
+}
+
+.prog-card a:hover {
+    font-size: calc(1rem + 3px);
+    color: #1434A4;
+    transform: scale(1.0); /* Нулевая трансформация, чтобы избежать визуальных изменений */
+}

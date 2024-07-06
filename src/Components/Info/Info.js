@@ -1,7 +1,7 @@
 import React from 'react';
 import './Info.css';
-import {useLanguage} from "./Language";
-import lang from "../Data/translate.json";
+import {useLanguage} from "../language/Language";
+import lang from "../../Data/translate.json";
 const Info = () => {
     const { getLang } = useLanguage();
     const currentLanguage = getLang();

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './Header.css';
 
-import logo from '../Images/logo.png';
-import language from '../Images/lang.png';
-import bars from '../Images/bars.png';
+import logo from '../../assets/logo.png';
+import language from '../../assets//lang.png';
+import bars from '../../assets//bars.png';
 import {Link } from 'react-router-dom';
-import lang from '../Data/translate.json';
-import {useLanguage} from "./Language";
+import lang from '../../Data/translate.json';
+import {useLanguage} from "../language/Language";
 
 
 const Header = () => {

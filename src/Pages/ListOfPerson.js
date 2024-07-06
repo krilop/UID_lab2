@@ -1,13 +1,13 @@
 import React from "react";
 
 import peopleData from '../Data/peopleData.json';
-import PersonCard from "../Components/PersonCard";
+import PersonCard from "../Components/PersonCard/PersonCard";
 import '../App.css';
-import {useLanguage} from "../Components/Language";
+import {useLanguage} from "../Components/language/Language";
 
 import './ListOfPerson.css';
 import lang from "../Data/translate.json";
-import SearchComponent from "../Components/SearchComponent";
+import SearchComponent from "../Components/SearchComponent/SearchComponent";
 
 function ListOfPerson() {
     const { language, getTextsByLanguage } = useLanguage();

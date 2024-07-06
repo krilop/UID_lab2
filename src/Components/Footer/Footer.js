@@ -1,10 +1,10 @@
 // src/components/Footer.js
 import React from 'react';
 import './Footer.css';
-import ProgDetails from '../Data/progDetails.json';
-import ProgCard from "./ProgCard";
-import lang from '../Data/translate.json';
-import {useLanguage} from "./Language";
+import ProgDetails from '../../Data/progDetails.json';
+import ProgCard from "../ProgCard/ProgCard";
+import lang from '../../Data/translate.json';
+import {useLanguage} from "../language/Language";
 const Footer = () => {
     const { getLang } = useLanguage();
     const currentLanguage = getLang();
